@@ -42,7 +42,7 @@ use warnings;
 #no autovivification 'warn';
 
 
-package RSBX::Development::Tracer v1.1.0.0;
+package RSBX::Development::Tracer v1.1.0.1;
 
 
 use Exporter;
@@ -361,7 +361,7 @@ This example demonstrates the use of:
 
 Lines 01-08
 
-=item *C<TRACER_ENTER('(', $_[0], ')');>
+=item * C<TRACER_ENTER('(', $_[0], ')');>
 
 Lines 11-12
 
